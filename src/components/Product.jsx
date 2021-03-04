@@ -18,10 +18,10 @@ class Product extends React.Component {
                     </div>
                     <div className="price-product-content">
                         <div className="price">
-                            <span>{this.props.price}</span>
+                            <span id="price">&#36;{this.props.price} {this.props.currency}</span>
                         </div>
                         <div className="button-comprar">
-                            <input type="button" value="COMPRAR" />
+                            <input type="button" id="button-buy" value="COMPRAR" />
                         </div>
                     </div>
                 </div>
