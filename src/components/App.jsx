@@ -1,10 +1,15 @@
 import React from "react";
+// import Logo from "./Logo"
+// import Navbar from "./Navbar"
+import Product from "./Product"
 
 class App extends React.Component {
     render() {
         return (
             <div>
-                <h1>eCommerce by <span>Erika Parra</span></h1>
+                <Product
+                    description="Bolsa para dama aqua pra multicolor Kelly. Ideal para temporada de verano"
+                />
             </div>
         );
     }

@@ -1,0 +1,86 @@
+/* ********************** BOXES **************************** */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+.product {
+    background-color: aquamarine;
+    border: 1px solid black;
+    height: 24rem;
+    padding: 3px;
+    width: 13rem;
+}
+
+.product .image-content {
+    background-color: blanchedalmond;
+    border: 1px solid rgb(250, 154, 154);
+    height: 59%;
+    margin-bottom: 2px;
+    padding: 5px;
+    width: 100%;
+}
+
+.product .product-content {
+    background-color: coral;
+    border: 1px solid rgb(241, 38, 38);
+    height: 40%;
+    padding: 3px;
+    width: 100%;
+}
+
+.product .product-content .description-product-content {
+    background-color: rgb(184, 46, 74);
+    border: 1px solid rgba(165, 42, 42, 0.294);
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: .9rem;
+    height: 50%;
+    margin-bottom: 1px;
+    opacity: .5;
+    text-align: center;
+    text-transform: capitalize;
+    width: 100%;
+}
+.product .product-content .price-product-content {
+    background-color: rgb(127, 185, 190);
+    border: 1px solid rgba(165, 42, 42, 0.294);
+    height: 50%;
+    /* margin: 1px; */
+    width: 100%;
+}
+
+/* ************************** IMG CONTENT ************************ */
+
+
+.product .image-content img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/*************************** DESCRIPTION CONTENT *****************/
+
+/* .product .product-content .description-product-content {
+    background-color: chartreuse;
+    border: solid 1px black;
+} */
+
+
+/* *************************** PRICE PRUDUCT CONTENT ******************** */
+
+.product .product-content .price-product-content .price {
+    background-color: tomato;
+    border: 1px solid black;
+    height: 50%;
+    width: 100%;
+}
+.product .product-content .button-comprar {
+    background-color: tomato;
+    border: 1px solid black;
+    height: 50%;
+    padding: 2px;
+    width: 100%;
+}
+
+.product .product-content .price-product-content .button-comprar input {
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,13 @@
+ul {
+    display: flex;
+}
+
+li {
+    font-size: 1.4rem;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+li::marker {
+    content: none;
+}
